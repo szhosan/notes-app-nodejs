@@ -7,3 +7,9 @@ export interface IToDo {
   isArchived: boolean;
   dates?: string[];
 }
+
+export interface IToDoStat {
+  category: string;
+  active: number;
+  archivedAmount: number;
+}
