@@ -35,7 +35,10 @@ export default class ToDo {
   }
 
   @Post()
+  //@UseBefore(validateBody)
   async add(@Body() body: IToDo) {
+    console.log(body);
+
     await this.service.add(body);
 
     return "Success";
