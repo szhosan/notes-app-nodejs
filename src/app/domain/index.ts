@@ -1,4 +1,4 @@
-import Person from "./person/Person";
+import Person from "./todo/ToDo";
 
 const controllers = <any>{ Person };
 export { controllers };

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "l28wmwom",
+    "name": "Task #1",
+    "category": "task",
+    "content": "12/10/2022 Content of task #1",
+    "created": "September 10, 2022",
+    "isArchived": false,
+    "dates": ["12/10/2022"]
+  },
+  {
+    "id": "l29wmwom",
+    "name": "Task #2",
+    "category": "task",
+    "content": "15/10/2022 Content of task #1",
+    "created": "September 10, 2022",
+    "isArchived": false,
+    "dates": ["15/10/2022"]
+  },
+  {
+    "id": "l30wmwom",
+    "name": "Thought #77",
+    "category": "thought",
+    "content": "15/10/2022 Content of task #77",
+    "created": "September 15, 2022",
+    "isArchived": false,
+    "dates": ["15/10/2022"]
+  },
+  {
+    "id": "SFbfaCz902UALwjssQW9M",
+    "name": "Next idea",
+    "category": "idea",
+    "content": "Too many ideas",
+    "isArchived": false,
+    "created": "September 15, 2022",
+    "dates": []
+  },
+  {
+    "id": "SghfaCz902UALwjssQW9M",
+    "name": "Ready for new ideas",
+    "category": "idea",
+    "content": "Content of ideas",
+    "isArchived": true,
+    "created": "September 14, 2022",
+    "dates": []
+  },
+  {
+    "id": "ubR2KOIfE5kfNro9kNJXn",
+    "name": "Complete all Radency Tasks",
+    "category": "idea",
+    "content": "Complete all tasks before 20/09/22",
+    "isArchived": false,
+    "created": "September 15, 2022",
+    "dates": ["20/09/22"]
+  },
+  {
+    "id": "ubR2KOIfE5fghfghNro9kNJXn",
+    "name": "New thoughts",
+    "category": "thought",
+    "content": "Complete all tasks from 10/09/22 to 20/09/22",
+    "isArchived": false,
+    "created": "September 16, 2022",
+    "dates": ["10/09/22", "20/09/22"]
+  }
+]
