@@ -7,11 +7,15 @@ import {
   Delete,
   Patch,
   NotFoundError,
+  BadRequestError,
 } from "routing-controllers";
 import { App } from "../../../infra/App";
+
 import ToDoService from "./ToDoService";
 
 import { IToDo } from "./ToDoTypes";
+
+import { contactAddSchema } from "./ToDoSchema";
 
 @JsonController("/notes")
 export default class ToDo {
@@ -37,10 +41,11 @@ export default class ToDo {
   @Post()
   //@UseBefore(validateBody)
   async add(@Body() body: IToDo) {
-    console.log(body);
-
+    const { error } = contactAddSchema.validate(body);
+    if (error) {
+      return new BadRequestError(error.message);
+    }
     await this.service.add(body);
-
     return "Success";
   }
 
